@@ -10,7 +10,8 @@
 
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
-	
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="bootstrap3/css/bootstrap.css" rel="stylesheet" />
     <link rel="stylesheet" href="sugar_stylesheet.css">
 	<link href="assets/css/gsdk.css" rel="stylesheet" />  
@@ -24,17 +25,11 @@
     
 <div id="navbar-full">
     <div class="container">
-        <nav class="navbar navbar-ct-blue navbar-transparent navbar-fixed-top" role="navigation">
+        <nav class="navbar navbar-ct-blue  navbar-fixed-top" role="navigation">
           
           <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+            <div class="navbar-header" >                
                 <a href="">
                      <div class="logo-container">
                         <div class="logo">
@@ -48,21 +43,7 @@
             </div>
                         
             
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <a href="#gsdk" class="dropdown-toggle" style="color:black; block-size: 100rem;" data-toggle="dropdown">LC Sugar cubes <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                      <li><a href="lcps.html">LCPs</a></li>
-                      <li><a href="abeokuta.html">Abeokuta</a></li>
-                      <li><a href="abuja.html">Abuja</a></li>
-                      <li class="divider"></li>
-                      <li><a href="#gsdk">Separated link</a></li>
-                      <li class="divider"></li>
-                      <li><a href="#gsdk">One more separated link</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
+        
               <!-- /.navbar-collapse -->
 
           </div><!-- /.container-fluid -->
@@ -143,6 +124,17 @@
                 </div> <!-- end row -->               
         </div>
     <!-- end buttons div -->
+
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown button
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="lcps.html">LCPs</a>
+          <a class="dropdown-item" href="abeokuta.html">Abeokuta</a>
+          <a class="dropdown-item" href="abuja.html">Abuja</a>
+        </div>
+      </div>
     
         
 <div class="main">
@@ -199,6 +191,9 @@
 
 </body>
 
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="jquery/jquery-1.10.2.js" type="text/javascript"></script>
 	<script src="assets/js/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>
 
